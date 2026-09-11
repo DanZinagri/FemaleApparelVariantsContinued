@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+  <name>Female Apparel Variants Continued</name>
+  <author>tiagocc0</author>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <packageId>tiagocc0.FemaleApparelVariants</packageId>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+  </loadAfter>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <url></url>
+
+  <description>
+This mod provides a way to load, on the fly, a different apparel texture for thin, fat and hulk females if the texture exists (loaded by another mod).
+
+Example:
+/Common/Textures/Things/Pawn/Humanlike/Apparel/PowerArmor/PowerArmor_Hulk_Female_south.png
+/Common/Textures/Things/Pawn/Humanlike/Apparel/PowerArmor/PowerArmor_Hulk_Female_east.png
+/Common/Textures/Things/Pawn/Humanlike/Apparel/PowerArmor/PowerArmor_Hulk_Female_north.png
+
+This mod is intended to be used for other modders as a base to new female apparel exclusive textures.
+With this they only need to provide the new textures and no coding xml or c# is needed.
+  </description>
+</ModMetaData>
