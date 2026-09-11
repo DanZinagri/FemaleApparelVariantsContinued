@@ -8,6 +8,6 @@ public static class HarmonyInit
 {
 	static HarmonyInit()
 	{
-		new Harmony("FemaleBodyVariants").PatchAll();
+		new Harmony("FemaleApparelVariants").PatchAll();
 	}
 }
